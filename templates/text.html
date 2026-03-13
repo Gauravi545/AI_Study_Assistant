@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summary:</title>
-
+    <title>AI Study Assistant - Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
-         <h1>Summary:</h1>
-        <br>
-        <pre>{{ summary }}</pre>
+        <h1>Summary</h1>
+        <div class="summary-box">
+            {{ summary }}
+        </div>
         <a href="/">Upload Another PDF</a>
-    </div> 
+    </div>
 </body>
 </html>

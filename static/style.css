@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center content */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* File input */
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Summary text */
+.summary-box {
+    background-color: #ecf0f1;
+    padding: 15px 20px;
+    border-radius: 8px;
+    line-height: 1.6;
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
