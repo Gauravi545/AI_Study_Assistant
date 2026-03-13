@@ -4,16 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AI Study Assist</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
+        <div class="container">
         <h1>Welcome to your AI study assist!</h1>
         <p>Your personal AI-powered study companion.</p>
         <form action="/upload" method="post" enctype="multipart/form-data">
 
             <input type="file" placeholder="Select File" name="file">
             <br>
-            <input type="submit" value="upload">
-            
+            <button type="submit" value="upload">Upload</button>
         </form>
+        </div>
     </body>
 </html>
